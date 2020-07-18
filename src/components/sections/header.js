@@ -27,23 +27,34 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>FCクラウド管理サービス</Subtitle>
             <h1>
-              All your money,
+              FC本部の加盟店管理を
               <br />
-              one account
+              1つのクラウドで
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              SmartFCは、加盟店の経営管理やコミュニケーションを円滑にするクラウド型ソフトウェアです。近日、無料α版を公開予定。テストユーザー募集中です。
             </h2>
-            <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+            <HeaderForm
+              name="early-access"
+              method="post"
+              data-netlify-honeypot="bot-field"
+              data-netlify="true"
+            >
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="early-access" />
+              <HeaderInput
+                type="email"
+                placeholder="メールアドレス"
+                name="email"
+                id="email"
+                required
+              />
+              <HeaderButton>無料で事前登録</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+              　<FormSubtitleLink to="/"></FormSubtitleLink>
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>

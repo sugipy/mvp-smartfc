@@ -7,36 +7,15 @@ const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
       <FooterColumn>
-        <span>Features</span>
+        <span>私たちについて</span>
         <ul>
-          <li>Automation</li>
-          <li>Rewards</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Resources</span>
-        <ul>
-          <li>Compare</li>
-          <li>Blog</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Company</span>
-        <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Social</span>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
+          <li>会社</li>
+          <li>代表プロフィール</li>
         </ul>
       </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Finance</Logo>
+      <Logo>SmartFC</Logo>
     </BrandContainer>
   </FooterWrapper>
 )

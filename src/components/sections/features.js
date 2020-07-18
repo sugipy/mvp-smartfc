@@ -6,42 +6,43 @@ import { Section, Container } from "../global"
 const Features = () => (
   <Section id="features">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <Subtitle>Feature</Subtitle>
+      <SectionTitle>機能一覧</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>チャット機能</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            加盟店とSVはチャットで話し、電話・FAX・移動を削減。
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>マニュアルをクラウド管理</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            マニュアルを簡単に整理、常に最新のマニュアルを加盟店に表示。
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>売上管理</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            加盟店の売上をクラウド管理して、全ての経営状況が1目で分かる。
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
+          <FeatureTitle>加盟店管理</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
+            加盟店の経営状況と本部情報を集計し、サポートが必要な加盟店が1目でわかる。
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
+          <FeatureTitle>掲示板機能</FeatureTitle>
+          <FeatureText>
+            おしらせは全てクラウドの掲示板へ。加盟店へ本部の活動をアピール。
+          </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
+          <FeatureTitle>オンライン発注</FeatureTitle>
           <FeatureText>
-            High interest and rewards for hitting your goals.
+            加盟店への仕事の発注もオンラインで実現。全て記録をクラウドに保存。
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
